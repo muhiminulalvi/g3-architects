@@ -468,10 +468,15 @@ input[type="submit"] {
 
     .feature-section-img {
         width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .feature-section-img img {
         margin-left: 0;
+        width: 350px;
+        height: 485px;
     }
 
     .feature-section-img .btn-primary {
@@ -511,6 +516,11 @@ input[type="submit"] {
     .sponsor-logo{
         flex-direction: column;
         gap: 40px;
+        justify-content: center;
+    }
+
+    .sponsor-logo img{
+        width: 45%;
     }
 
     .contact-container{
@@ -533,7 +543,14 @@ input[type="submit"] {
 
     input[type="email"] {
         padding: 20px;
-        width: 60%;
+        width: 90%;
     }
-    
+
+    .footer-container {
+        margin: 5vw 6.5vw;
+    }
+
+    .footer-info {
+        padding: 2vw 11vw;
+    }
 }
