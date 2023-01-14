@@ -1,7 +1,47 @@
 /* =============================================
                 Basic Styles
 ============================================= */
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+}
+
+/* =============================================
+            Header Styles
+============================================= */
+.header {
+    width: 100vw;
+    background-color: #FF900E1A;
+}
+
+/* =============================================
+            Navigation Menu Styles
+============================================= */
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.6vw 12vw;
+    align-items: center;
+}
+
+nav .nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #424242;
 }
