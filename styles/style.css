@@ -6,6 +6,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+h2,
+h3 {
+    color: #131313;
+    font-weight: 700;
+}
+
 /* =============================================
             Header Styles
 ============================================= */
@@ -25,8 +31,6 @@
 }
 
 nav .nav-title {
-    color: #131313;
-    font-weight: 700;
     font-size: 2.8rem;
 }
 
@@ -44,4 +48,50 @@ nav .nav-title {
     font-weight: 500;
     font-size: 1.125rem;
     color: #424242;
+}
+
+/* =============================================
+            Banner Section Styles
+============================================= */
+
+.banner {
+    padding: 2.34vw 12.5vw;
+    text-align: center;
+}
+
+.banner-info {
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+
+.banner-info .banner-title {
+    font-size: 4rem;
+    padding-top: 1.6vw;
+    padding-bottom: 1vw;
+}
+
+.banner-info .banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1.6vw;
+    /* padding: 1.6vw 0; */
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    border: 0;
+    padding: 21px 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+}
+
+.banner .banner-img{
+    
+}
+
+.banner-img img{
+    width: 100%;
 }
