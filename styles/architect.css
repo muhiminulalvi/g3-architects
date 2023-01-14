@@ -85,9 +85,11 @@ nav .nav-title {
     margin-bottom: 2.5vw;
 }
 
-.banner .banner-img {}
+.banner .banner-img{
+    
+}
 
-.banner-img img {
+.banner-img img{
     width: 100%;
 }
 
@@ -95,49 +97,24 @@ nav .nav-title {
             Feature Section Styles
 ============================================= */
 
-.feature-list {
+.feature-list{
     width: 100%;
 }
 
-.feature-list-container {
+.feature-list-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 3.7vw;
     margin: 4.4vw 15vw;
 }
 
-.feature-list-img {
+.feature-list-img{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
 
-.feature-list-img img {
-    width: 300px;
-    height: 300px;
-}
+.feature-list-details{
 
-.feature-list-title {
-    font-weight: 600;
-    font-size: 2.8rem;
-    padding-bottom: 1.25vw;
-}
-
-.feature-list-title .s1 {
-    color: #727272;
-    font-weight: 500;
-}
-
-.feature-list-title .s2 {
-    color: #FF900E;
-    font-weight: 700;
-}
-
-.feature-list-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    line-height: 26px;
-    padding-bottom: 1.6vw;
 }
