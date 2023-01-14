@@ -271,3 +271,106 @@ nav .nav-title {
     font-size: 20px;
     color: #727272;
 }
+
+/* =============================================
+            Sponsor Section Styles
+============================================= */
+.sponsors{
+
+}
+
+.sponsor-info{
+    text-align: center;
+    padding: 2.5vw 32vw;
+}
+
+.sponsor-info .sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.sponsor-info .sponsor-description {
+    color: #727272;
+    /* padding-right: 45vw; */
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 12.5vw;
+    mix-blend-mode: luminosity;
+}
+
+.sponsor-logo img{
+    filter: grayscale(100%);
+}
+/* =============================================
+            Contact Section Styles
+============================================= */
+.contact-container{
+    padding: 100px 230px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact-details{
+    width: 65%;
+}
+
+.subscribe-detail{
+    width: 45%;
+}
+
+.contact-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.contact-description, .contact-subtitle{
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.contact-description{
+    padding-right: 150px;
+}
+
+.contact-subtitle{
+    padding-bottom: 16px;
+}
+
+.social{
+    display: flex;
+    gap: 17px;
+}
+
+.form-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+input[type="email"]{
+    padding: 20px;
+    width: 100%;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f3f3f3f2;
+}
+
+input[type="submit"]{
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FF900E;
+}
