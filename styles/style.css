@@ -253,6 +253,12 @@ nav .nav-title {
     /* transform: rotate(90deg); */
     padding: 45px 30px;
     text-align: center;
+    width: 100%;
+    transition: width 2s, transform 2s;
+}
+
+.fact-card:hover {
+    transform: rotate(90deg);
 }
 
 .fact-card img {
@@ -374,3 +380,7 @@ input[type="submit"]{
     border-radius: 5px;
     background-color: #FF900E;
 }
+
+/* =============================================
+            Footer Section Styles
+============================================= */
