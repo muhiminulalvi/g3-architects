@@ -403,7 +403,7 @@ input[type="submit"] {
 }
 
 /* =============================================
-            Media Query Styles
+            Media Query Mobile Styles
 ============================================= */
 @media screen and (max-width: 576px) {
     .banner-info {
@@ -556,6 +556,10 @@ input[type="submit"] {
         padding: 2vw 11vw;
     }
 }
+
+/* =============================================
+            Media Query Tablet Styles
+============================================= */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
