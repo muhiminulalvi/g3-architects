@@ -106,7 +106,7 @@ nav .nav-title {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3.7vw;
-    margin: 4.4vw 15vw;
+    margin: 4.4vw 10vw;
 }
 
 .feature-list-img {
